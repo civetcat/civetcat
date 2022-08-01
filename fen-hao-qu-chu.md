@@ -1,5 +1,8 @@
 ---
 description: 江湖闖盪必備：減少負擔
+cover: >-
+  https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw5fHxyZW1vdmV8ZW58MHx8fHwxNjU5MzQwOTU2&ixlib=rb-1.2.1&q=80
+coverY: 0
 ---
 
 # 分號去除
