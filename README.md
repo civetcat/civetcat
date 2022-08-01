@@ -12,7 +12,7 @@ coverY: 0
 * [變數型別轉變為var/val](kotlin-de-bian-shu-xuan-gao-fang-shi.md)
 * for loop的寫法改變
 * [Singleton寫法更容易了！](kotlin-de-singleton-san-zhong-xie-fa.md)
-* 分號去除
+* [分號去除](fen-hao-qu-chu.md)
 * 先變數才型別 variable : type
 * 沒有new關鍵字了
 * 可空類型/不可空類型 『？』
