@@ -27,7 +27,7 @@ npm run serve
 
 - Framework preset：None
 - Build command：留空
-- Build output directory：`/`
+- Build output directory：`.`
 
 網站只有靜態 HTML、CSS、JavaScript 與圖片，不需要 Pages Functions、Workers 或環境變數。
 
