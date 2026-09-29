@@ -1,23 +1,34 @@
----
-description: 關於那些轉變
-coverY: 0
----
+# 杏樹枝商品展示網站
 
-# 從Java到Kotlin
+零依賴的響應式靜態網站，展示商品圖片、品名與價格，不含購物車或訂購功能。
 
-也許你也是從Java開始轉入kotlin的工程師,相信一開始最不習慣的就是型別宣告的位置跟是顛倒過來的,接著就是kotlin去掉了『new』關鍵字,然後會發現連for的寫法都有些不同。但沒有關係,Kotlin是一個值得學習的語言,他簡化了很多Java時代的冗餘寫法,讓你可以更快速的開發程式。\
-\
-入門差異:
+## 本機預覽
 
-* [變數型別轉變為var/val](kotlin-de-bian-shu-xuan-gao-fang-shi.md)
-* for loop的寫法改變
-* [Singleton寫法更容易了！](kotlin-de-singleton-san-zhong-xie-fa.md)
-* 分號去除
-* 先變數才型別 variable : type
-* 沒有new關鍵字了
-* 可空類型/不可空類型 『？』
+需要 Node.js 18+ 與 Python 3。
 
-進階差異：
+```bash
+npm test
+npm run serve
+```
 
-* Extension (apply , let , run , also)
-* Coroutines & channel
+開啟 <http://localhost:4173>。
+
+## 更新商品
+
+1. 將商品圖片放入 `assets/`。
+2. 編輯 `data/products.json` 中的品名、價格、圖片路徑與替代文字。
+3. 執行 `npm test` 確認資料與圖片路徑有效。
+
+目前的商品與 SVG 圖片皆為可替換的示意內容。
+
+## Cloudflare Pages 部署
+
+連結 Git repository 後使用以下設定：
+
+- Framework preset：None
+- Build command：留空
+- Build output directory：`/`
+
+網站只有靜態 HTML、CSS、JavaScript 與圖片，不需要 Pages Functions、Workers 或環境變數。
+
+> Repo 內原有的 Kotlin 教學 Markdown 文件為歷史內容，未納入網站頁面。
