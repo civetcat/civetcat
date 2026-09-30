@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">v÷h¿FÁ placeholder</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9e0d6"/>
+      <stop offset="1" stop-color="#f3ded0"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f9f4ea"/>
+      <stop offset="1" stop-color="#dba37b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="480" rx="205" ry="34" fill="#294535" opacity=".16"/>
+  <path d="M245 172h310l-31 271c-4 38-35 66-73 66H349c-38 0-69-28-73-66z" fill="url(#cup)"/>
+  <path d="M547 234c121 4 109 175-14 175" fill="none" stroke="#f4eadc" stroke-width="35" stroke-linecap="round"/>
+  <ellipse cx="400" cy="173" rx="155" ry="35" fill="#fdfaf4"/>
+  <ellipse cx="400" cy="178" rx="124" ry="23" fill="#8d6a50"/>
+  <path d="M385 286c40-58 91-34 66 13-15 29-41 43-66 65-24-22-50-36-65-65-25-47 26-71 65-13z" fill="#476451"/>
+  <text x="400" y="557" fill="#536158" font-family="sans-serif" font-size="18" text-anchor="middle" letter-spacing="4">IMAGE PLACEHOLDER</text>
+</svg>

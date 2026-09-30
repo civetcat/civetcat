@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="杏樹枝商品展示，瀏覽精選商品的圖片、品名與價格。"
+    />
+    <meta name="theme-color" content="#f8f4ec" />
+    <title>杏樹枝｜把喜歡的日常，好好收藏</title>
+    <link rel="icon" href="./assets/favicon.png" type="image/png" sizes="512x512" />
+    <link rel="apple-touch-icon" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#products">跳至商品列表</a>
+
+    <header class="site-header">
+      <a class="brand" href="./">
+        <img
+          class="brand-logo"
+          src="./assets/logo-horizontal-color.png"
+          alt="杏樹枝"
+          width="1016"
+          height="247"
+        />
+      </a>
+      <nav aria-label="主要導覽">
+        <a href="#products">商品</a>
+        <a href="#about">關於我們</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">ANSHUZHI SELECT</p>
+          <h1 id="hero-title">把喜歡的日常，<br />好好收藏。</h1>
+          <p class="hero-copy">
+            精選樸實、耐看且適合長久相伴的生活物件，讓每個平凡日子多一點溫柔。
+          </p>
+          <a class="primary-link" href="#products">瀏覽商品</a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <span class="sun"></span>
+          <span class="branch branch-one"></span>
+          <span class="branch branch-two"></span>
+          <span class="leaf leaf-one"></span>
+          <span class="leaf leaf-two"></span>
+          <span class="leaf leaf-three"></span>
+        </div>
+      </section>
+
+      <section class="products-section" id="products" aria-labelledby="products-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">OUR SELECTION</p>
+            <h2 id="products-title">精選商品</h2>
+          </div>
+          <p>目前僅提供商品瀏覽，尚未開放線上訂購。</p>
+        </div>
+
+        <div class="product-grid" id="product-grid" aria-live="polite">
+          <p class="loading-message">正在載入商品…</p>
+        </div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <p class="eyebrow">ABOUT ANSHUZHI</p>
+        <h2 id="about-title">慢慢挑選，認真生活。</h2>
+        <p>
+          杏樹枝相信，好物不必喧鬧。每件選品都從日常需要出發，陪你建立舒服而長久的生活節奏。
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand footer-brand" href="./">
+        <img
+          class="brand-logo"
+          src="./assets/logo-horizontal-color.png"
+          alt="杏樹枝"
+          width="1016"
+          height="247"
+          loading="lazy"
+          decoding="async"
+        />
+      </a>
+      <p>商品資訊與價格以最新公告為準。</p>
+      <p><small>© <span id="current-year"></span> 杏樹枝</small></p>
+    </footer>
+  </body>
+</html>

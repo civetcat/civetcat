@@ -1,0 +1,38 @@
+[
+  {
+    "name": "亞麻日常提袋（示意商品）",
+    "price": 680,
+    "image": "./assets/product-linen.svg",
+    "imageAlt": "米色亞麻提袋示意圖"
+  },
+  {
+    "name": "杏色陶瓷馬克杯（示意商品）",
+    "price": 520,
+    "image": "./assets/product-ceramic.svg",
+    "imageAlt": "杏色陶瓷馬克杯示意圖"
+  },
+  {
+    "name": "木質圓形托盤（示意商品）",
+    "price": 880,
+    "image": "./assets/product-wood.svg",
+    "imageAlt": "木質圓形托盤示意圖"
+  },
+  {
+    "name": "輕柔亞麻餐巾組（示意商品）",
+    "price": 460,
+    "image": "./assets/product-linen.svg",
+    "imageAlt": "淺綠與米色亞麻布料示意圖"
+  },
+  {
+    "name": "霧綠陶瓷小碟（示意商品）",
+    "price": 390,
+    "image": "./assets/product-ceramic.svg",
+    "imageAlt": "霧綠陶瓷器皿示意圖"
+  },
+  {
+    "name": "原木桌上收納盤（示意商品）",
+    "price": 760,
+    "image": "./assets/product-wood.svg",
+    "imageAlt": "原木收納盤示意圖"
+  }
+]
