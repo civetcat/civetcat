@@ -68,25 +68,13 @@ a {
 
 .brand {
   display: inline-flex;
-  gap: 0.65rem;
   align-items: center;
-  color: var(--green-dark);
-  font-size: 1.2rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
   text-decoration: none;
 }
 
-.brand-mark {
-  display: grid;
-  width: 2.2rem;
-  height: 2.2rem;
-  place-items: center;
-  border-radius: 50% 50% 48% 52%;
-  color: var(--white);
-  background: var(--green);
-  font-size: 0.9rem;
-  letter-spacing: 0;
+.brand-logo {
+  width: clamp(9.5rem, 18vw, 12rem);
+  height: auto;
 }
 
 nav {
@@ -369,7 +357,11 @@ footer p {
 }
 
 .footer-brand {
-  font-size: 1rem;
+  width: fit-content;
+}
+
+.footer-brand .brand-logo {
+  width: 10rem;
 }
 
 @media (max-width: 52rem) {
@@ -411,6 +403,10 @@ footer p {
 
   nav {
     gap: 0.8rem;
+  }
+
+  .brand-logo {
+    width: 9rem;
   }
 
   nav a {
